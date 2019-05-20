@@ -14,5 +14,5 @@ let proofoflife = module.exports = {};
  * @function isAlive
  */
 proofoflife.isAlive = function(dead) {
-  return dead;
+  return !dead;
 };
